@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="20dp"
+    android:background="#BF8E05">
+
+    <ImageView
+        android:id="@+id/ImageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@tools:sample/avatars"
+        app:srcCompat="@drawable/hqdefault"
+        tools:srcCompat="@drawable/hqdefault" />
+
+    <TextView
+        android:id="@+id/item_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/item_list_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/item_list_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="end"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/item_list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#221A03"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:layout_marginTop="20dp"
+
+        android:text="Посмотреть" />
+
+</LinearLayout>
