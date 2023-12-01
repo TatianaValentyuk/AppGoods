@@ -36,7 +36,7 @@ class DbHelper (val context: Context, val factory: SQLiteDatabase.CursorFactory?
     }
 fun getUser(login: String, pass: String ): Boolean{//передаем данные пользователя в функцию
     val db = this.readableDatabase
-    val result = db.rawQuery("SELECT * FROM user WHERE login = '$login' AND pass ='$pass' ", null)//получаем все поля с условием login = login (который мы передали) и второй параметр null, мы данные не получаем динамически
+    val result = db.rawQuery("SELECT * FROM users WHERE login = '$login' AND pass ='$pass' ", null)//получаем все поля с условием login = login (который мы передали) и второй параметр null, мы данные не получаем динамически
     return result.moveToFirst()//возвращает лито истина либо Ложь в зависимости от того, найдена или нет запись
 
 }

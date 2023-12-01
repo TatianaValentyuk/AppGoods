@@ -3,24 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:paddingBottom="20dp"
-    android:background="#FAB222"
-    android:layout_marginBottom="20dp"
+    android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#e2a600"
+    tools:context=".ItemActivity">
 
-    >
-    <ImageView
-        android:id="@+id/item_list_image"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scaleType="centerCrop"
-
-        app:srcCompat="@drawable/kitchen"
-        tools:srcCompat="@drawable/kitchen" />
 
     <TextView
-        android:id="@+id/item_list_title"
+        android:id="@+id/item_list_title_one"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingHorizontal="20dp"
@@ -30,7 +20,7 @@
         android:text="TextView" />
 
     <TextView
-        android:id="@+id/item_list_desc"
+        android:id="@+id/item_list_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingHorizontal="20dp"
@@ -39,25 +29,13 @@
         android:textSize="17sp"
         android:text="TextView" />
 
-
-    <TextView
-        android:id="@+id/item_list_price"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingHorizontal="20dp"
-        android:paddingVertical="10dp"
-        android:textStyle="bold"
-        android:textSize="25sp"
-        android:gravity="end"
-        android:text="TextView" />
-
     <Button
-        android:id="@+id/item_list_button"
+        android:id="@+id/button_buy"
         android:layout_width="201dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:backgroundTint="#030722"
+        android:backgroundTint="#A8431B"
 
-        android:text="@string/look" />
+        android:text="@string/buy" />
 
 </LinearLayout>

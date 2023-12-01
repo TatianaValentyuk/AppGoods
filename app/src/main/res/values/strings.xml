@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">AppGoods</string>
+    <string name="buy">Купить</string>
+    <string name="look">Посмотреть</string>
+    <string name="create_on_account">Создайте аккаунт</string>
+    <string name="enter_login">Введите логин</string>
+    <string name="enter_email">Введите email</string>
+    <string name="enter_pass">Введите пароль</string>
+    <string name="registration">Регистрация</string>
+    <string name="login">Авторизоваться</string>
 </resources>

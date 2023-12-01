@@ -16,14 +16,14 @@ class MainActivity : AppCompatActivity() {
         val userEmail: EditText = findViewById(R.id.user_email)
         val userPass: EditText = findViewById(R.id.user_pass)
         val button: Button = findViewById(R.id.button_reg)
-        val linkToAuth: TextView = findViewById(R.id.link_to_reg)
+        val linkToAuth: TextView = findViewById(R.id.link_to_auth)
         linkToAuth.setOnClickListener {
             val intent = Intent(
                 this,
-                AuthActiv::class.java
+                AuthActivity::class.java
             )//указываем, что переходим с текущей страницы на страницу AuthActivity
             startActivity(intent)
-
+        }
             button.setOnClickListener { //создаем обработку кнопки
                 val login =
                     userLogin.text.toString().trim()//получаем текст, введенный пользователем
@@ -43,4 +43,3 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-}
