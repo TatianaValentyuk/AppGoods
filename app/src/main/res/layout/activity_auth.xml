@@ -15,7 +15,7 @@ tools:context=".AuthActivity">
     android:layout_gravity="center"
     android:layout_marginTop="170dp"
     android:fontFamily="cursive"
-    android:text="Войдите в аккаунт"
+    android:text="@string/sign_In"
     android:textColor="#fdfdfd"
     android:textSize="25sp"
     android:textStyle="bold" />
@@ -30,7 +30,7 @@ tools:context=".AuthActivity">
     android:layout_marginTop="20dp"
     android:layout_gravity="center"
     android:textColor="#fdfdfd"
-    android:hint="Введите логин" />
+    android:hint="@string/login_enter" />
 
 
 
@@ -44,13 +44,13 @@ tools:context=".AuthActivity">
     android:layout_marginTop="20dp"
     android:layout_gravity="center"
     android:textColor="#fdfdfd"
-    android:hint="Введите пароль" />
+    android:hint="@string/pass_enter" />
 
 <Button
     android:id="@+id/button_auth"
     android:layout_width="220dp"
     android:layout_height="wrap_content"
-    android:text="Войти"
+    android:text="@string/log_in"
     android:textStyle="bold"
     android:textSize="16sp"
     android:textColor="#fdfdfd"
@@ -66,7 +66,7 @@ tools:context=".AuthActivity">
 
         android:layout_marginTop="120dp"
         android:fontFamily="@font/inter_bold"
-        android:text="Зарегистрироваться"
+        android:text="@string/registration_enter"
         android:textColor="#fdfdfd"
         android:textSize="17sp"
         android:textStyle="bold" />
