@@ -13,7 +13,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
         android:fontFamily="cursive"
-        android:text="Товары"
+        android:text="@string/products"
         android:textColor="#fdfdfd"
         android:textSize="25sp"
         android:textStyle="bold" />

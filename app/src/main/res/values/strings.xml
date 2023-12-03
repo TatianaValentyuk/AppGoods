@@ -8,4 +8,10 @@
     <string name="enter_pass">Введите пароль</string>
     <string name="registration">Регистрация</string>
     <string name="login">Авторизоваться</string>
+    <string name="sign_In">Войдите в аккаунт</string>
+    <string name="login_enter">Введите логин</string>
+    <string name="pass_enter">Введите пароль</string>
+    <string name="registration_enter">Зарегистрироваться</string>
+    <string name="log_in">Войти</string>
+    <string name="products">Товары</string>
 </resources>
