@@ -29,13 +29,6 @@
         android:textSize="17sp"
         android:text="TextView" />
 
-    <Button
-        android:id="@+id/button_buy"
-        android:layout_width="201dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:backgroundTint="#A8431B"
 
-        android:text="@string/buy" />
 
 </LinearLayout>
