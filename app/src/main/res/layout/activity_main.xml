@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#281E28"
+    android:background="#e2a600"
     tools:context=".MainActivity">
 
 
@@ -65,7 +65,7 @@
         android:textSize="16sp"
         android:textColor="#5e4502"
         android:layout_gravity="center"
-        android:backgroundTint="#e2a600"
+        android:backgroundTint="#201e28"
         android:layout_marginTop="30dp"
         />
 

@@ -63,7 +63,6 @@ tools:context=".AuthActivity">
         android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-
         android:layout_marginTop="120dp"
         android:fontFamily="@font/inter_bold"
         android:text="@string/registration_enter"
